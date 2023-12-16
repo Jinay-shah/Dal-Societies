@@ -12,6 +12,7 @@ import AdminHomePage from './Pages/AdminHomePage';
 import PersistLogin from './Components/PersistLogin';
 import FindAllEvents from './Pages/FindAllEvents';
 import EventPage from './Pages/EventPage';
+import SignupPage from './Pages/SignupPage';
 
 import Admin from './Pages/Admin';
 
@@ -41,6 +42,7 @@ function App() {
           {/* public routes */}
           <Route path="/" element={<FindAllClubs />} />
           <Route path="login" element={<Login />} />
+          <Route path="signup" element={<SignupPage />} />
           <Route path="unauthorized" element={<Unauthorized />} />
 
           <Route path="admin" element={<Admin />} />
